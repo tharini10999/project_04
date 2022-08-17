@@ -18,6 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about',function(){
+return"เกี่ยวกับ";
+});
+
 Auth::routes();
 
 Route::get('/home',[HomeController::class,'index'])->name('home');
+
+Route::get('/admin/index',[HomeController::class,'admin'])->name('home');
