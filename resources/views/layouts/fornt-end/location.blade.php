@@ -323,192 +323,23 @@
 		<!-- content 
 			================================================== -->
             <div id="content">
-			
-                <div class="collection clearfix">
-                    <div class="container">
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                <div class="coll-item clearfix">
-    
-                                    <div class="coll-box">
-                                            <a href="#"><img src="{{ asset('fornt-end/upload/folder1/22.jpg')}}" width="220" height="250" alt=""></a>
-                                            <div class="coll-text">
-                                                <p>recommend</p>
-                                            </div>
-                                    </div>
-    
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                            <div class="coll-item clearfix">
-    
-                                <div class="coll-box">
-                                    <a href="#"><img src="{{ asset('fornt-end/upload/folder1/35.jpg')}}" width="220" height="250" alt=""></a>
-                                    <div class="coll-text">
-                                        <p>recommend</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                            <div class="coll-item clearfix">
-    
-                                <div class="coll-box">
-                                    <a href="#"><img src="{{ asset('fornt-end/upload/folder1/43.jpg')}}" width="220" height="250" alt=""></a>
-                                    <div class="coll-text">	
-                                        <p>recommend</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                <!-- End Collection -->
-    
-                <!-- our work portfolio -->
-                <div class="arrivals">
-                    <div class="container">
+
+                <div class="contact-content">
     
     
-                        <div class="filters">
-                        <div class="filter clearfix">
-                                <div class="holder">
-                                    <ul>
-                                    <li><a href="{{url('/flowering-plant.php')}}" data-filter="*"><i class=""></i> ทั้งหมด<i class="active"></i></a></li>
-                                        <li><a href="{{url('/flowering-plant.php')}}" data-filter=".class1" class="">ไม้ดอก</a></li>
-                                        <li><a href="{{url('/foliage-plant.php')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
-                                        <li><a href="{{url('/purify-the-air.php')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
-                                        <li><a href="{{url('/cactus.php')}}" data-filter=".class4"><i class=""></i> แคคตัส<i class=""></i></a></li>
-                                    </ul>
-                                    <div class="holder-border"></div>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
+    <section id="contact" class="contact">
+     <div class="container" data-aos="fade-up">
     
-                            <div class="demo1 clearfix">
-                                <ul class="filter-container clearfix">
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/หญ้าฟรุ้งฟริ้ง.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Gaura lindheimeri Engelm. & A.Gray</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>หญ้าฟรุ้งฟริ้ง</p></a>
-                                            
-                                        </div>
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/กล้วยไม้.jpg')}}" width="270" height="320"  alt="">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Spathoglottis plicata Blume</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>กล้วยไม้ดิน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/เสน่ห์จันทร์แดง.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์คือ Homalomena Wallisii</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>เสน่ห์จันทร์แดง</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/คล้านกยูงรํา-แพน.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Calathea makoyana</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>คล้านกยูงรํา-แพน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ไทรใบสัก.jfif')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Ficus lyrata</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ไทรใบสัก</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ลิ้นมังกร.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Dracaena trifasciata</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ลิ้นมังกร</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/กุหลาบหิน.jfif')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ : Kalanchoe blossfeldiana Poellnitz</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>กุหลาบหิน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ยิมโน2.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Gymnocalycium mihanovichii</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ยิมโน</p></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                        </div>	
-                        <!-- End Filters -->
     
-                    </div>
+     <div class="mb-9">
+     <iframe style="border:0; width: 100%; height: 700px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.065945381975!2d100.95441001744385!3d14.132219400000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d99512de4ab17%3A0xff48fbf5ac2a6ede!2z4Liq4Lin4LiZIOC5gOC4rSDguK3guYnguK3guKEg4Lij4LmJ4Liy4LiZ4LiC4Liy4Lii4LiV4LmJ4LiZ4LmE4Lih4LmJ4LiX4Li14LmI4Liq4Lin4Lii4LiX4Li14LmI4Liq4Li44LiU4LmD4LiZ4LiE4Lil4Lit4LiHIDE1!5e0!3m2!1sth!2sth!4v1659682317400!5m2!1sth!2sth" frameborder="0" allowfullscreen></iframe>
+     </div>
     
-                </div>
-                <!-- end our work portfolio -->
+            </div>
+            <!-- End content -->
     
-                <div class="middle-content">
-                    <div class="container">
-                        <h1>FREE SHIPPING <span>ALL ORDERS OVER $150</span></h1>
-                    </div>
-                </div>
-    
-                <!-- blog -->
-                <div class="blog">
+    <!-- blog -->
+    <div class="blog">
                     <div class="container">
                         
     
@@ -516,33 +347,24 @@
                             <div class="col-md-4">
                                 <div class="blog-item">
                                     <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรนฮาวาย.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Phymatosorus grossus (Langsd. & Fisch.) Brownlie</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p>เฟิร์นฮาวาย</p>
+                                        <a href="#"><img src="{{ asset('fornt-end/upload/8_n.jpg')}}" alt=""></a>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="blog-item">
                                     <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรินบอสตัน.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Nephrolepis cordifolia.</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p> เฟิร์นบอสตัน</p>
+                                        <a href="#"><img src="{{ asset('fornt-end/upload/9_n.jpg')}}" alt=""></a>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="blog-item">
                                     <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรินใบมะขาม.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Nephrolepis cordifolia</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p>เฟิร์นใบมะขาม</p>
+                                        <a href="#"><img src="{{ asset('fornt-end/upload/2_n.jpg')}}" alt=""></a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -550,106 +372,6 @@
                     </div>
                 </div>
                 <!-- end blog -->
-    
-    <!---->
-    
-                    <div class="container">
-                        <div class="title">
-                            <h1><i class=""></i> You will find more items in our store.<i class=""></i></h1>
-                            <div class="title-border"></div>
-                        </div>
-    
-                            <div class="demo1 clearfix">
-                                <ul class="filter-container clearfix">
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/1_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                            
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/2_n.jpg')}}" width="270" height="320"  alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/3_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/4_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/5_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/6_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/7_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/9_n.jpg')}}"width="270" height="320" alt="">
-                                            
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                </ul>
-                            </div>
-                        </div>	
-    
-            </div>
-    <div class="call-to-action">
-        <h1>สามารถเดินทางมาที่สวนเอ-อ้อมได้ แค่กดด้านล่าง</h1>
-        <a href="Location.php" class="medium-button button-red">go Location</a>
-    </div>
-
-
 
     <!-- footer
    ================================================== -->

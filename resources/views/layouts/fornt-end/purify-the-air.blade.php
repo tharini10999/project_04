@@ -319,338 +319,141 @@
     </div>
     <!-- End SLider -->
 
+		<!-- content -->
+		<div id="content">
 
-		<!-- content 
-			================================================== -->
-            <div id="content">
-			
-                <div class="collection clearfix">
-                    <div class="container">
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                <div class="coll-item clearfix">
-    
-                                    <div class="coll-box">
-                                            <a href="#"><img src="{{ asset('fornt-end/upload/folder1/22.jpg')}}" width="220" height="250" alt=""></a>
-                                            <div class="coll-text">
-                                                <p>recommend</p>
-                                            </div>
-                                    </div>
-    
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                            <div class="coll-item clearfix">
-    
-                                <div class="coll-box">
-                                    <a href="#"><img src="{{ asset('fornt-end/upload/folder1/35.jpg')}}" width="220" height="250" alt=""></a>
-                                    <div class="coll-text">
-                                        <p>recommend</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            
-                            <div class="col-md-4">
-                            <div class="coll-item clearfix">
-    
-                                <div class="coll-box">
-                                    <a href="#"><img src="{{ asset('fornt-end/upload/folder1/43.jpg')}}" width="220" height="250" alt=""></a>
-                                    <div class="coll-text">	
-                                        <p>recommend</p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-                <!-- End Collection -->
-    
-                <!-- our work portfolio -->
-                <div class="arrivals">
-                    <div class="container">
-    
-    
-                        <div class="filters">
-                        <div class="filter clearfix">
+
+            <div class="shop-main container-fluid" id="menu-container">
+                    <div class="row">
+            
+                        <div class="col-md-12">
+                            <div class="shop-content">
+                                
+                            <div class="filter clearfix">
                                 <div class="holder">
-                                    <ul>
-                                    <li><a href="{{url('/flowering-plant.php')}}" data-filter="*"><i class=""></i> ทั้งหมด<i class="active"></i></a></li>
-                                        <li><a href="{{url('/flowering-plant.php')}}" data-filter=".class1" class="">ไม้ดอก</a></li>
-                                        <li><a href="{{url('/foliage-plant.php')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
-                                        <li><a href="{{url('/purify-the-air.php')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
-                                        <li><a href="{{url('/cactus.php')}}" data-filter=".class4"><i class=""></i> แคคตัส<i class=""></i></a></li>
+                                    <ul style="display: block;">
+                                        <li><a href="{{ url('/flowering-plant.php')}}" data-filter=".class1" data-filter="*">ไม้ดอก</a></li>
+                                        <li><a href="{{ url('/foliage-plant.php')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
+                                        <li><a href="{{ url('/purify-the-air.php')}}" class="active"><i class=""></i> ไม้ฟอกอากาศ</a></li>
+                                        <li><a href="{{ url('/cactus.php')}}" data-filter=".class3"><i class=""></i> แคคตัส<i class=""></i></a></li>
                                     </ul>
                                     <div class="holder-border"></div>
                                 </div>
                             </div>
-                            <div class="clear"></div>
     
-                            <div class="demo1 clearfix">
-                                <ul class="filter-container clearfix">
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/หญ้าฟรุ้งฟริ้ง.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Gaura lindheimeri Engelm. & A.Gray</a>
+                                <div class="shop-list">
+    
+                                    <div class="grid-item2">
+    
+                                        <div class="row">
+    
+                                            <div class="arrival-overlay col-md-4">
+                                                <img src="{{ asset('fornt-end/upload/พลูงาช้าง.jpg')}}" alt="">
+                                            </div>
+    
+                                            <div class="col-md-8">
+                                                <div class="list-content">
+    
+                                                    <h1>พลูงาช้าง</h1>
+                                                    <span class="flower-price">฿100</span>
+    
+                                                    <h3><b class="list-desc"> วิธีการดูแลต้นไม้</b></h3>
+    
+                                                    <h4><b>เติบโตได้ดีในภูมิอากาศแบบเมืองไทย ดูแลคล้าย ๆ กันคือ อยู่ได้ในที่แสงร่มรำไร ไปจนถึงแสงปานกลาง เป็นไม้เลื้อยที่ไม่ต้องการน้ำมาก หลายต้นสามารถเลี้ยงได้ทั้งในน้ำและในดิน หากเลี้ยงในน้ำจะเติบโตได้ช้ากว่า และจะต้องเปลี่ยนน้ำสัปดาห์ละครั้ง ส่วนถ้าจะเลี้ยงในดินก็ควรรดน้ำ 2-3 วันครั้ง ปลูกในดินที่ระบายน้ำได้ดี ไม่แน่นจนเกินไป ปลูกได้ทั้งในบ้านและนอกบ้าน</b></h4>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>หญ้าฟรุ้งฟริ้ง</p></a>
-                                            
-                                        </div>
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/กล้วยไม้.jpg')}}" width="270" height="320"  alt="">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Spathoglottis plicata Blume</a>
+                                    </div>
+    
+                                    <div class="grid-item2 grid-item2__alternate">
+    
+                                        <div class="row">
+    
+                                                <div class="arrival-overlay col-md-4">
+                                                        <img src="{{ asset('fornt-end/upload/ไทรใบสัก1.jpg')}}" alt="">
+                                                </div>
+    
+                                            <div class="col-md-8">
+                                                      <div class="list-content">
+    
+                                                        <h1>ไทรใบสัก</h1>
+                                                        <span class="flower-price">฿80</span>
+    
+                                                        <h3><b class="list-desc"> วิธีการดูแลต้นไม้</b></h3>
+    
+                                                        <h4><b>ก 1.แสงแดด ถ้าปลูกไว้นอกบ้านก็ให้โดนแสงแดดได้ปกติ   เพราะเป็นไม้ที่ชอบแสงแดดอยู่แล้ว ส่วนใครที่ปลูกเอาไว้ในห้องก็ควรให้โดนแสงแดดรำไรอย่างน้อย 3-5 ชั่วโมงต่อวัน 2.น้ำ เจ้าไทรของเราไม่ชอบน้ำมาก ไม่ควรรดน้ำบ่อยจนเกินไป เพราะจะทำให้ต้นเน่าตายได้ ควรรดน้ำอย่างน้อย 3-4 วันครั้ง หรือเช็คดินว่าแห้งแล้วถึงค่อยรดน้ำ 3.ดิน</b></h4>
+    
+                                                    </div>
                                             </div>
+        
                                         </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>กล้วยไม้ดิน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/เสน่ห์จันทร์แดง.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์คือ Homalomena Wallisii</a>
+    
+                                    </div>
+    
+                                    <div class="grid-item2 ">
+    
+                                        <div class="row">
+    
+                                                <div class="arrival-overlay col-md-4">
+                                                        <img src="{{ asset('fornt-end/upload/บอนเซล.jfif')}}" alt="">
+                                                </div>
+    
+                                            <div class="col-md-8">
+                                                      <div class="list-content">
+    
+                                                        <h1>บอนเซล</h1>
+                                                        <span class="flower-price">฿72</span>
+                                                        <h3><b class="list-desc"> วิธีการดูแลต้นไม้</b></h3>
+    
+                                                        <h4><b> บอนสีเป็นพืชที่ต้องการน้ำมาก จึงควรให้น้ำสม่ำเสมอ ถ้าต้นบอนขาดน้ำจะชะงักการเจริญเติบโต ไม่สดใส การรดน้ำควรรดวันละ 2 ครั้งตอนเช้าและตอนเย็น ไม่ควรใช้สายยางฉีดน้ำที่โคนต้นเพราะจะทำให้กระทบกระเทือนอาจทำให้ต้นและใบของบอนสีฉีกขาดและหักได้ ถ้าปลูกในกระถางควรมีจานรองกระถางใส่น้ำไว้เสมอ</b></h4>
+    
+                                                    </div>
                                             </div>
+        
                                         </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>เสน่ห์จันทร์แดง</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/คล้านกยูงรํา-แพน.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Calathea makoyana</a>
+    
+                                    </div>
+    
+                                    <div class="grid-item2 grid-item2__alternate">
+                                        <div class="row">
+    
+                                                <div class="arrival-overlay col-md-4">
+                                                        <img src="{{ asset('fornt-end/upload/ลิ้นมังกร1.jpg')}}" alt="">
+                                                </div>
+    
+                                            <div class="col-md-8">
+                                                      <div class="list-content">
+    
+                                                        <h1>ลิ้นมังกร</h1>
+                                                        <span class="flower-price">฿50</span>
+    
+                                                        <h3><b class="list-desc"> วิธีการดูแลต้นไม้</b></h3>
+    
+                                                        <h4><b>  ลิ้นมังกรขึ้นชื่อว่าเป็นพืชที่ทรหดมาก เพราะมันทนและเติบโตได้เกือบทุกสภาพแวดล้อม สามารถปลูกบนดินในสวนกลางแจ้งก็ได้ ปลูกในกระถางแล้วตั้งไว้ในห้องแอร์ก็ได้ จึงเหมาะกับการปลูกเป็นไม้ประดับในบ้าน ถ้าจะให้ดีคือปลูกลงในกระถางโดยใช้เครื่องปลูกที่เน้นความร่วนโปร่งและซึมซับน้ำได้ดีอย่างเช่นดินร่วน ผสมใบก้ามปู และมะพร้าวสับ </b></h4>
+    
+                                                    </div>
                                             </div>
+        
                                         </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>คล้านกยูงรํา-แพน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ไทรใบสัก.jfif')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Ficus lyrata</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ไทรใบสัก</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ลิ้นมังกร.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Dracaena trifasciata</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ลิ้นมังกร</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/กุหลาบหิน.jfif')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ : Kalanchoe blossfeldiana Poellnitz</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>กุหลาบหิน</p></a>
-                                        </div>
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/ยิมโน2.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Gymnocalycium mihanovichii</a>
-                                            </div>
-                                        </div>
-                                        <div class="arr-content">
-                                            <a href="#"><p>ยิมโน</p></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+    
+                                    </div>
+    
                             
-                        </div>	
-                        <!-- End Filters -->
+                                    
     
-                    </div>
-    
-                </div>
-                <!-- end our work portfolio -->
-    
-                <div class="middle-content">
-                    <div class="container">
-                        <h1>FREE SHIPPING <span>ALL ORDERS OVER $150</span></h1>
-                    </div>
-                </div>
-    
-                <!-- blog -->
-                <div class="blog">
-                    <div class="container">
-                        
-    
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรนฮาวาย.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Phymatosorus grossus (Langsd. & Fisch.) Brownlie</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p>เฟิร์นฮาวาย</p>
-                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรินบอสตัน.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Nephrolepis cordifolia.</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p> เฟิร์นบอสตัน</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <a href="#"><img src="{{ asset('fornt-end/upload/เฟรินใบมะขาม.jpg')}}" alt=""></a>
-                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                        <a href="#"><h3>ชื่อวิทยาศาสตร์ Nephrolepis cordifolia</h3></a>
-                                        <div class="blog-border"></div>
-                                        <p>เฟิร์นใบมะขาม</p>
-                                    </div>
-                                </div>
+    
+    
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- end blog -->
-    
-    <!---->
-    
-                    <div class="container">
-                        <div class="title">
-                            <h1><i class=""></i> You will find more items in our store.<i class=""></i></h1>
-                            <div class="title-border"></div>
-                        </div>
-    
-                            <div class="demo1 clearfix">
-                                <ul class="filter-container clearfix">
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/1_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                            
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/2_n.jpg')}}" width="270" height="320"  alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/3_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/4_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/5_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/6_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/7_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/9_n.jpg')}}"width="270" height="320" alt="">
-                                            
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
-                                </ul>
-                            </div>
-                        </div>	
-    
+                <!-- End shopmain -->
+                
+                
             </div>
-    <div class="call-to-action">
-        <h1>สามารถเดินทางมาที่สวนเอ-อ้อมได้ แค่กดด้านล่าง</h1>
-        <a href="Location.php" class="medium-button button-red">go Location</a>
-    </div>
-
-
-
+            <!-- End content -->
     <!-- footer
    ================================================== -->
    <footer>

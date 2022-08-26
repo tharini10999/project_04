@@ -88,8 +88,8 @@
                 <div class="navbar-nav align-items-center ms-auto">
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="{{asset('back-end/rounded-circle me-lg-2" src="img/user.jpg')}}" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">A-aom</span>
+                            <img class="rounded-circle me-lg-2" src="{{asset('back-end/img/user.jpg')}}" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">John Doe</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">My Profile</a>
@@ -105,39 +105,7 @@
                 </div>
             </nav>
             <!-- Navbar End -->
-                
-            <div class="container-xxl flex-grow-1 container-p-y">
-
-                <div class="col-md-6 col-lg-4 mb-6 mx-auto">
-                    <div class="card h-50">
-                        <img class="card-img" src="assets/img/avatars/user.jpg" alt="" />
-                        <div class="card-body">
-                            <h3 class="card-title">My Profile</h3>
-                            <p class="card-text">
-                                Name : John
-                            </p>
-
-                            <p class="card-text">
-                                Address : จ.นนทบุรี
-                            </p>
-
-                            <p class="card-text">
-                                Email : John@gmail.com
-                            </p>
-
-                            <p class="card-text">
-                                Phone : 098-888-8888
-                            </p>
-
-                            <a href="edit_profile.html" class="btn btn-outline-success">Home</a>
-
-                            <a href="{{route('admin')}}" class="btn btn-outline-primary">Product Managment</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+@yield('content')
         </div>
         <!-- Content End -->
 
