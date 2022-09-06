@@ -433,7 +433,7 @@
  - ACTIVATE THE BANNER HERE -
  ##############################
  -->
-    <script type="{{ asset('fornt-end/text/javascript') }}">
+    <script type="text/javascript">
 
 		var tpj=jQuery;
 		tpj.noConflict();

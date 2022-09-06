@@ -381,11 +381,11 @@
                         <div class="filter clearfix">
                                 <div class="holder">
                                     <ul>
-                                    <li><a href="{{url('/flowering-plant.php')}}" data-filter="*"><i class=""></i> ทั้งหมด<i class="active"></i></a></li>
-                                        <li><a href="{{url('/flowering-plant.php')}}" data-filter=".class1" class="">ไม้ดอก</a></li>
-                                        <li><a href="{{url('/foliage-plant.php')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
-                                        <li><a href="{{url('/purify-the-air.php')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
-                                        <li><a href="{{url('/cactus.php')}}" data-filter=".class4"><i class=""></i> แคคตัส<i class=""></i></a></li>
+                                    <li><a href="{{url('/flowering-plant')}}" data-filter="*"><i class=""></i> ทั้งหมด<i class="active"></i></a></li>
+                                        <li><a href="{{url('/flowering-plant')}}" data-filter=".class1" class="">ไม้ดอก</a></li>
+                                        <li><a href="{{url('/foliage-plant')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
+                                        <li><a href="{{url('/purify-the-air')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
+                                        <li><a href="{{url('/cactus')}}" data-filter=".class4"><i class=""></i> แคคตัส<i class=""></i></a></li>
                                     </ul>
                                     <div class="holder-border"></div>
                                 </div>
@@ -410,6 +410,7 @@
                                     <li class="class2">
                                         <div class="arrival-overlay">
                                             <img src="{{ asset('fornt-end/upload/กล้วยไม้.jpg')}}" width="270" height="320"  alt="">
+                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
                                                 <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Spathoglottis plicata Blume</a>
                                             </div>
@@ -423,7 +424,7 @@
                                             <img src="{{ asset('fornt-end/upload/เสน่ห์จันทร์แดง.jpg')}}" width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์คือ Homalomena Wallisii</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Homalomena Wallisii</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -435,7 +436,7 @@
                                             <img src="{{ asset('fornt-end/upload/คล้านกยูงรํา-แพน.jpg')}}" width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Calathea makoyana</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Calathea makoyana</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -447,7 +448,7 @@
                                             <img src="{{ asset('fornt-end/upload/ไทรใบสัก.jfif')}}"width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Ficus lyrata</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Ficus lyrata</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -459,7 +460,7 @@
                                             <img src="{{ asset('fornt-end/upload/ลิ้นมังกร.jpg')}}" width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Dracaena trifasciata</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Dracaena trifasciata</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -471,7 +472,7 @@
                                             <img src="{{ asset('fornt-end/upload/กุหลาบหิน.jfif')}}"width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ : Kalanchoe blossfeldiana Poellnitz</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Kalanchoe blossfeldiana Poellnitz</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -483,7 +484,7 @@
                                             <img src="{{ asset('fornt-end/upload/ยิมโน2.jpg')}}"width="270" height="320" alt="">
                                             <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
                                             <div class="arrival-mask">
-                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์ Gymnocalycium mihanovichii</a>
+                                                <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Gymnocalycium mihanovichii</a>
                                             </div>
                                         </div>
                                         <div class="arr-content">
@@ -559,91 +560,111 @@
                             <div class="title-border"></div>
                         </div>
     
-                            <div class="demo1 clearfix">
-                                <ul class="filter-container clearfix">
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/1_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                        <div class="demo1 clearfix">
+                            <ul class="filter-container clearfix">
+                                <li class="class1">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/1_n.jpg')}}"width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์:  Oxalis purpurea.</a>
                                         </div>
-                                            
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/2_n.jpg')}}" width="270" height="320"  alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
-                                        </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>ผีเสื้อราตรี</p></a>
                                         
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/3_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                </li>
+                                <li class="class2">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/2_n.jpg')}}" width="270" height="320"  alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Petunia Hybrida.</a>
                                         </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/4_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>พิทูเนียเวฟ</p></a>
+                                    </div>
+                                </li>
+                                <li class="class3">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/3_n.jpg')}}" width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: (Plectranthus scutellarioides (L.) R. Br. )<p>ชื่อสามัญ Coleus, Painted nettle. ชื่ออื่นๆ ว่านเลือดแห้ง ฤษีผสมแล้ว</p></a>
+                                          
                                         </div>
-                                        
-                                    </li>
-                                    <li class="class1">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/5_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>ฤาษีผสม</p></a>
+                                    </div>
+                                </li>
+                                <li class="class4">
+                                    <div class="arrival-overlay">
+                                       <img src="{{ asset('fornt-end/upload/folder 4/4_n.jpg')}}" width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Asteraceae.</a>
                                         </div>
-                                        
-                                    </li>
-                                    <li class="class2">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/6_n.jpg')}}" width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>แอฟริกันเดซี่</p></a>
+                                    </div>
+                                </li>
+                                <li class="class1">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/5_n.jpg')}}"width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อไทย: พลูฉีก</a>
                                         </div>
-                                        
-                                    </li>
-                                    <li class="class3">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/7_n.jpg')}}"width="270" height="320" alt="">
-                                            <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>อิพิเยลโล่เฟรม</p></a>
+                                    </div>
+                                </li>
+                                <li class="class2">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/6_n.jpg')}}" width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Asparagus densiflorus (Kunth) Jessop. Myers.</a>
                                         </div>
-                                        
-                                    </li>
-                                    <li class="class4">
-                                        <div class="arrival-overlay">
-                                            <img src="{{ asset('fornt-end/upload/folder 4/9_n.jpg')}}"width="270" height="320" alt="">
-                                            
-                                            <div class="arrival-mask">
-                                                <!-- <a href="#" class="medium-button button-red add-cart">Add to Cart</a> -->
-                                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>ปริกหางกระรอก</p></a>
+                                    </div>
+                                </li>
+                                <li class="class3">
+                                    <div class="arrival-overlay">
+                                        <img src="{{ asset('fornt-end/upload/folder 4/7_n.jpg')}}"width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Petunia Hybrida.</a>
                                         </div>
-                                </ul>
-                            </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>พิทูเนียเวฟ</p></a>
+                                    </div>
+                                </li>
+                                <li class="class4">
+                                    <div class="arrival-overlay">
+                                         <img src="{{ asset('fornt-end/upload/folder 4/9_n.jpg')}}"width="270" height="320" alt="">
+                                        <img src="{{ asset('fornt-end/upload/new.png')}}" alt="" class="new">
+                                        <div class="arrival-mask">
+                                            <a href="#" class="medium-button button-red add-cart">ชื่อวิทยาศาสตร์: Spathoglottis</a>
+                                        </div>
+                                    </div>
+                                    <div class="arr-content">
+                                        <a href="#"><p>กล้วยไม้ดิน</p></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                         </div>	
     
-            </div>
+                    </div>
     <div class="call-to-action">
         <h1>สามารถเดินทางมาที่สวนเอ-อ้อมได้ แค่กดด้านล่าง</h1>
         <a href="Location.php" class="medium-button button-red">go Location</a>
@@ -711,7 +732,7 @@
  - ACTIVATE THE BANNER HERE -
  ##############################
  -->
-    <script type="{{ asset('fornt-end/text/javascript') }}">
+    <script type="text/javascript">
 
 		var tpj=jQuery;
 		tpj.noConflict();

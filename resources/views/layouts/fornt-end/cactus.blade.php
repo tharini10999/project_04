@@ -331,10 +331,10 @@
                     <div class="filter clearfix">
                         <div class="holder">
                             <ul style="display: block;">
-                                <li><a href="{{url('/flowering-plant.php')}}" data-filter=".class1" data-filter="*">ไม้ดอก</a></li>
-                                <li><a href="{{url('/foliage-plant.php')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
-                                <li><a href="{{url('/purify-the-air.php')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
-                                <li><a href="{{url('/cactus.php')}}" class="active"><i class=""></i> แคคตัส<i class=""></i></a></li>
+                                <li><a href="{{url('/flowering-plant')}}" data-filter=".class1" data-filter="*">ไม้ดอก</a></li>
+                                <li><a href="{{url('/foliage-plant')}}" data-filter=".class2"><i class=""></i> ไม้ใบ</a></li>
+                                <li><a href="{{url('/purify-the-air')}}" data-filter=".class3"><i class=""></i> ไม้ฟอกอากาศ</a></li>
+                                <li><a href="{{url('/cactus')}}" class="active"><i class=""></i> แคคตัส<i class=""></i></a></li>
                             </ul>
                             <div class="holder-border"></div>
                         </div>
@@ -485,7 +485,7 @@
  - ACTIVATE THE BANNER HERE -
  ##############################
  -->
-    <script type="{{ asset('fornt-end/text/javascript') }}">
+    <script type="text/javascript">
 
 		var tpj=jQuery;
 		tpj.noConflict();

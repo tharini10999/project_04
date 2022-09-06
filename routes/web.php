@@ -55,6 +55,7 @@ Route::get('/admin/index',[HomeController::class,'admin'])->name('admin');
 //Contact
 Route::get('/admin/Contact/index',[App\Http\Controllers\Admin\ContactController::class,'index'])->name('Contact.index');
 Route::get('/admin/Contact/create',[App\Http\Controllers\Admin\ContactController::class,'Contactform'])->name('Contact.create');
+Route::post('/admin/Contact/insert',[App\Http\Controllers\Admin\ContactController::class,'insert'])->name('Contact.insret');
 
 
 //Element
