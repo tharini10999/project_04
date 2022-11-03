@@ -51,9 +51,9 @@
                     </button>
                     @endif
                 </td>
-                <td>{{$item->image}}</td>
-                <td>{{$item->created_at}}</td>
-                <td>{{$item->updated_at}}</td>
+                <td>{{ $item->image }}</td>
+                <td>{{ $item->created_at }}</td>
+                <td>{{ $item->updated_at }}</td>
                 <td>
                   <a href="{{route('Content.edit',$item->id)}}"><i class='bx bxs-edit'>Edit</i></a>
                   <a href="{{route('Content.delete',$item->id)}}"><i class='bx bx-trash'></i>Delete</a>
