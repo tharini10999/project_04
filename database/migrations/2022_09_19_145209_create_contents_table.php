@@ -17,7 +17,7 @@ return new class extends Migration
             $table->increments('content')->comment('รหัสผู้ใช้');
             $table->string('name')->comment('ชื่อสินค้า');
             $table->integer('price')->comment('ราคาสินค้า');
-            $table->varchar('detai')->comment('รายละเอียดสินค้า');
+            $table->text('detai')->comment('รายละเอียดสินค้า');
             $table->string('image')->comment('รูปภาพ');
             $table->timestamps();
         });

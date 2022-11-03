@@ -13,13 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('menus', function (Blueprint $table) {
+        Schema::create('menus', function (Blueprint $table)
+        {
+
             $table->increments('contents')->comment('รหัสผู้ใช้');
             $table->string('name')->comment('ชื่อสินค้า');
             $table->string('image')->comment('รูปภาพ');
             $table->integer('price')->comment('ราคาสินค้า');
-            $table->varchar('detai')->comment('รายละเอียดสินค้า');
+            $table->text('detai')->comment('รายละเอียดสินค้า');
             $table->timestamps();
+
         });
     }
 
