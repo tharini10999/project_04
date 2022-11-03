@@ -32,6 +32,7 @@
 </head>
 
 <body>
+    @include('sweetalert::alert')
     <div class="container-fluid position-relative d-flex p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -64,7 +65,7 @@
                     <a href="{{route('Menu.index')}}" class="nav-item nav-link"><i class="fa fa-th me-2"></i>เมนูต้นไม้</a>
                     <a href="{{route('Type.index')}}" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>ประเภทต้นไม้</a>
                     <a href="{{route('Element.index')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>เมนูสมาชิก</a>
-                    <a href="{{route('Contact.index')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Contact</a>
+                    <a href="{{route('Content.index')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Content</a>
                    
                 </div>
             </nav>

@@ -3,16 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Content;
 use Illuminate\Http\Request;
-use App\Models\Menu;
-use App\Http\Controllers\Admin\Content;
-use App\Models\Type;
 use Symfony\Component\Console\Command\DumpCompletionCommand;
 
-class MenuController extends Controller
+class ContentController extends Controller
 {
 
-    private $path_stroage = "Menu";
+    private $path_stroage = " Content";
 
     public function Random()
     {
@@ -30,36 +28,31 @@ class MenuController extends Controller
 
     }
 
-    public function index()
-    {
-        $Menu = Menu::Paginate(4);
-        return view('admin.Menu.index',compact('Menu'));
+
+    public function index(){
+        $Content = Content::Paginate(4);
+        return view('admin.Content.index',compact('Content'));
     }
 
-    public function Menuform()
-    {
-        $type = Type::Paginate(4);
-        return view('admin.Menu.create', compact('type'));
+    public function contentform(){
+        return view('admin.Content.create');
     }
 
-
-    public function insert(Request $request, Menu $menu)
+    public function insert(Request $request, Content $content)
     {
 
         if( !empty($request->file('image')) )
         {
             $imageName = $this->Random().'.'.$request->image->extension();
-            $request->image->storeAs('Menu', $imageName);
+            $request->image->storeAs('Content', $imageName);
         }else{
             $imageName = null;
         }
 
-        $menu->create([
+        $content->create([
 
-            "id_type" => $request->id_type,
             "name" => $request->name,
             "image" => $imageName,
-            "price" => $request->price,
             "detail" => $request->detail,
 
         ]);
@@ -71,26 +64,28 @@ class MenuController extends Controller
         // $menu->save();
 
         toast('บันทึกข้อมูลสำเร็จ','success');
-        return redirect()->route('Menu.index');
+        return redirect()->route('Content.index');
 
     }
 
     public function edit($id)
     {
-
-        $manu = Menu::find($id);
-        $type =  Type::all();
-
-        return view('admin.Menu.editform',compact('manu', 'id', 'type'));
-
+        $Content = Content::find($id);
+        return view('admin.Content.editform', compact('Content'));
     }
 
-    public function update($id, Request $request, Menu $menu)
+    public function update($id, Request $request, Content $Content)
     {
+
+        // $Content = Content::find($id);
+        // $Content->name = $request->name;
+        // $Content->detail = $request->detail;
+        // $Content->image = $request->image;
+        // $Content->update();
 
         if( !empty($request->file('image')) ){
 
-            $check = $menu->where('id', $id)->first();
+            $check = $Content->where('id', $id)->first();
 
             if(!empty($check->image))
             {
@@ -101,25 +96,21 @@ class MenuController extends Controller
             }
 
             $imageName = $this->Random().'.'.$request->image->extension();
-            $request->image->storeAs('Menu', $imageName);
+            $request->image->storeAs('Content', $imageName);
 
-            $menu->find($id)->update([
+            $Content->find($id)->update([
 
-                "id_type" => $request->id_type,
                 "name" => $request->name,
                 "image" => $imageName,
-                "price" => $request->price,
                 "detail" => $request->detail
 
             ]);
 
         }else{
 
-            $menu->find($id)->update([
+            $Content->find($id)->update([
 
-                "id_type" => $request->id_type,
                 "name" => $request->name,
-                "price" => $request->price,
                 "detail" => $request->detail
 
             ]);
@@ -128,27 +119,20 @@ class MenuController extends Controller
 
         toast('update ข้อมูลสำเร็จ', 'success');
 
-        return redirect()->route('Menu.index');
+        return redirect()->route('Content.index');
 
     }
 
-    public function delete($id, Menu $menu)
+
+
+    public function delete($id)
     {
 
-        $check = $menu->where('id', $id)->first();
-
-        if(!empty($check->image)){
-            $path = public_path().'/'.$this->path_stroage.'/'.$check->image;
-            if( file_exists($path) ):
-                unlink($path);
-            endif;
-        }
-
-        $menu->find($id)->delete();
-
+        $Content = Content::find($id);
+        $Content-> delete();
         toast('ลบข้อมูลสำเร็จ','success');
-        return redirect()->route('Menu.index');
+
+        return redirect()->route('Content.index');
 
     }
-
 }

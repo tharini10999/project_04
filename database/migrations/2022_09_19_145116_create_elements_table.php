@@ -13,12 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('backgroud_details', function (Blueprint $table) {
-            $table->increments('backgroud_details')->comment('รหัสผู้ใช้');
-            $table->string('image')->comment('รูปภาพ');
+        Schema::create('elements', function (Blueprint $table) {
+            $table->increments('contents')->comment('รหัสผู้ใช้');
             $table->string('name')->comment('ชื่อผู้ใช้');
-            $table->integer('users_id')->comment('รหัสผูใช้งาน');
-            $table->timestamps();
+            $table->string('image')->comment('รูปภาพ');
         });
     }
 
@@ -29,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('backgroud_details');
+        Schema::dropIfExists('elements');
     }
 };

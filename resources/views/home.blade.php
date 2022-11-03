@@ -64,7 +64,7 @@
                     <a href="{{route('Menu.index')}}" class="nav-item nav-link"><i class="fa fa-th me-2"></i>เมนูต้นไม้</a>
                     <a href="{{route('Type.index')}}" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>ประเภทต้นไม้</a>
                     <a href="{{route('Element.index')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>เมนูสมาชิก</a>
-                    <a href="{{route('Contact.index')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Contact</a>
+                    <a href="{{route('Content.index')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>content</a>
                    
                 </div>
             </nav>

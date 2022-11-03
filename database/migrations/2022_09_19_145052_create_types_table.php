@@ -13,10 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('type_products', function (Blueprint $table) {
-            $table->increments('type_products_id')->comment('รหัสผู้ใช้');
-            $table->string('name')->comment('ชื่อผู้ใช้');
-            $table->integer('users_id')->comment('รหัสผู้ใช้งาน');
+        Schema::create('types', function (Blueprint $table) {
+            $table->increments('content')->comment('รหัสผู้ใช้');
+            $table->string('name')->comment('ชื่อสินค้า');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('type_products');
+        Schema::dropIfExists('types');
     }
 };

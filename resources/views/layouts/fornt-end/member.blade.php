@@ -464,31 +464,28 @@
     <div class="inner-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12">
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="infos">
-                    
-                    
+                        <div class="mb-6">
+                            <iframe style="border:0; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.065945381975!2d100.95441001744385!3d14.132219400000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d99512de4ab17%3A0xff48fbf5ac2a6ede!2z4Liq4Lin4LiZIOC5gOC4rSDguK3guYnguK3guKEg4Lij4LmJ4Liy4LiZ4LiC4Liy4Lii4LiV4LmJ4LiZ4LmE4Lih4LmJ4LiX4Li14LmI4Liq4Lin4Lii4LiX4Li14LmI4Liq4Li44LiU4LmD4LiZ4LiE4Lil4Lit4LiHIDE1!5e0!3m2!1sth!2sth!4v1659682317400!5m2!1sth!2sth" frameborder="0" allowfullscreen></iframe>
+                            </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="account">
-                    
-                    </div>
-                </div>
-                <div class="col-md-3">
+               
+                <div class="col-md-6">
                     <div class="gettouch">
-                        <h1>Contact</h1>
+                        <h1>content</h1>
                         <p><img src="{{ asset('fornt-end/upload/icon/map.png')}}" width= "20" height="20"></i>139 หมู่ 11  คลอง 15 ตำบล บางปลากด อำเภอองค์รักษ์ นครนายก 26120</p>
                         <p><img src="{{ asset('fornt-end/upload/icon/phone-call.png')}}" width= "20" height="20"></i> +66 81 156 4329</p>
-                        <p><img src="{{ asset('fornt-end/upload/icon/gmail.png')}}" width= "20" height="20">  </i> samokhinteam@gmail.com</p>
+                        <p><img src="{{ asset('fornt-end/upload/icon/gmail.png')}}" width= "20" height="20">  </i> anna.aom.aom@gmail.com</p>
                         <h1>FIND US ON</h1>
                         <ul class="footer-socials">
-                            <li><a href="https://www.facebook.com/pages/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%AD%E0%B9%89%E0%B8%AD%E0%B8%A1%20A%20Om%20Garden/1697665177205960/"><img src="{{ asset('fornt-end/upload/upload/icon/facebook.png')}}"width= "30" height="30"></i></a></li>
-                            <li><a href="https://www.instagram.com/"><img src="{{ asset('fornt-end/upload/upload/icon/instagram.png')}}"width= "35" height="35"></i></a></li>
-                            <li><a href=""><img src="{{ asset('fornt-end/upload/upload/icon/line.png')}}"width= "35" height="35"></i></a></li>
+                            <li><a href="https://www.facebook.com/pages/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%AD%E0%B9%89%E0%B8%AD%E0%B8%A1%20A%20Om%20Garden/1697665177205960/"><img src="{{ asset('fornt-end/upload/icon/facebook.png')}}"width= "30" height="30"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><img src="{{ asset('fornt-end/upload/icon/instagram.png')}}"width= "35" height="35"></i></a></li>
+                            <li><a href=""><img src="{{ asset('fornt-end/upload/icon/line.png')}}"width= "35" height="35"></i></a></li>
                         </ul>
                     </div>
                 </div>

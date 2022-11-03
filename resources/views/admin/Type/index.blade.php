@@ -10,66 +10,31 @@
               <tr>
                 <th>No</th>
                 <th>Name</th>
-                <th>images</th>
-                <th>Price</th>
                 <th>Created_at</th>
                 <th>Updated_at</th>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody class="table-border-bottom-0">
+              @foreach ($Type as $item)
               <tr>
-              <td>1</td>
-              <td>ไม้ดอก</td>
-              <td>iphone.jpg</td>
-              <td>45,990 บาท</td>
-              <td>2022-07-25 12:46:29</td>
-              <td>2022-07-25 12:46:29</td>
-              <td>
-                <a href="#"><i class='bx bxs-edit'></i></a>
-                <a href="#"><i class='bx bx-trash'></i></a>
-              </td>
-              <tbody class="table-border-bottom-0">
-                <tr>
-                <td>2</td>
-                <td>ไม้ใบ</td>
-                <td>iphone.jpg</td>
-                <td>45,990 บาท</td>
-                <td>2022-07-25 12:46:29</td>
-                <td>2022-07-25 12:46:29</td>
+                <td>{{ $Type->firstItem()+$loop->index}}</td>
+                <td>{{$item->name}}</td>
+                <td>{{$item->created_at}}</td>
+                <td>{{$item->updated_at}}</td>
                 <td>
-                  <a href="#"><i class='bx bxs-edit'></i></a>
-                  <a href="#"><i class='bx bx-trash'></i></a>
+                  <a href="{{route('Type.edit',$item->id)}}"><i class='bx bxs-edit'></i>Edit</a>
+                  <a href="{{route('Type.delete',$item->id)}}"><i class='bx bx-trash'>Delete</i></a>
                 </td>
-                <tbody class="table-border-bottom-0">
-                    <tr>
-                    <td>3</td>
-                    <td>ไม้ฟอกอากาศ</td>
-                    <td>iphone.jpg</td>
-                    <td>45,990 บาท</td>
-                    <td>2022-07-25 12:46:29</td>
-                    <td>2022-07-25 12:46:29</td>
-                    <td>
-                      <a href="#"><i class='bx bxs-edit'></i></a>
-                      <a href="#"><i class='bx bx-trash'></i></a>
-                    </td>
-                    <tbody class="table-border-bottom-0">
-                        <tr>
-                        <td>4</td>
-                        <td>แคคตัส</td>
-                        <td>iphone.jpg</td>
-                        <td>45,990 บาท</td>
-                        <td>2022-07-25 12:46:29</td>
-                        <td>2022-07-25 12:46:29</td>
-                        <td>
-                          <a href="#"><i class='bx bxs-edit'></i></a>
-                          <a href="#"><i class='bx bx-trash'></i></a>
-                        </td>
-              </tr>
+               
+                </tr>
+              @endforeach
             </tbody>
           </table>
         </div>
       </div>
     </div>
- 
+    <br>
+    {{$Type->links('pagination::bootstrap-5')}}
 </div>
 @endsection
